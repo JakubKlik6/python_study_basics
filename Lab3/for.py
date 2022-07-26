@@ -51,3 +51,31 @@ for number in range(10):
         print(number*"x")
     else:
         print(number*"o")
+
+        
+////////////////////////////////////////////////
+
+i = 10
+result = 1
+score = 1
+
+for x in range(1,i+1):
+    result *= x
+
+print("10!= ",result)
+
+
+print("------------------")
+
+for x in range(1,11):
+    score *= x
+    print(x,"! =",score)
+
+print("------------------")
+
+list_noun = ['dog', 'potato', 'meal', 'icecream', 'car']
+list_adj = ['dirty', 'big', 'hot', 'colorful', 'fast']
+
+for noun in list_noun:
+    for adj in list_adj:
+        print(noun,adj)
