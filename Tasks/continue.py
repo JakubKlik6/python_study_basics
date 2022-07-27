@@ -1,4 +1,4 @@
-#Creating email adress
+#Task 1 Creating email adress
 persons = ['Elizabeth', 'Steven@sales.mycompany.com','Sebastian','Margaret','Svetlana@mycompany.eu','Raphael']
 
 domain = 'mycompany.com'
@@ -30,7 +30,7 @@ for email in emails:
     print(email)
     
 ////////////////////////////////////////////////////////////////
-
+#Task2 menu choice
 
 menu = '''
 Choose what you want me to do for you:
