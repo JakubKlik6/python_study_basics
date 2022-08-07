@@ -18,3 +18,6 @@ print(median(percent))
 print(median_low(percent))
 print(median_high(percent))
 
+print("----------------------------------------")
+
+
